@@ -66,7 +66,7 @@ pipeline{
         
         stage("Post") {
             agent {
-                label 'dockerss'
+                label 'dockers'
             }
             steps {
                 sh '''
