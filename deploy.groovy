@@ -37,7 +37,7 @@ pipeline{
             steps{
                 sh '''
                     pwd 
-                    curl -v -u admin:Hola1234 -o app.jar http://172.25.109.16:8081/repository/maven-public/org/springframework/jb-hello-world-maven/0.2.1/jb-hello-world-maven-0.2.1.jar
+                    curl -v -u jenkins:Manson5512! -o app.jar http://172.25.109.16:8081/repository/maven-public/org/springframework/jb-hello-world-maven/0.2.1/jb-hello-world-maven-0.2.1.jar
                 '''
             }
         }
